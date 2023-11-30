@@ -1,0 +1,11 @@
+serializer
+
+djkango
+models==>fields==>complx data(queryset)
+convert to dict
+render
+
+rest
+a=models==>fields==>complx data(queryset)
+b=convert to py dict(serializer(a))
+render Response(b.data)
